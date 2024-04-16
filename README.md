@@ -9,7 +9,7 @@
 
 ###
 
-<img align="right" height="200" src="https://gifdb.com/images/high/american-psycho-patrick-bateman-walking-8g7gjtik0okcu7je.webp"  />
+<img align="right" height="150" src="https://gifdb.com/images/high/american-psycho-patrick-bateman-walking-8g7gjtik0okcu7je.webp"  />
 
 ###
 
