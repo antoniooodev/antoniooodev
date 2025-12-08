@@ -130,15 +130,6 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   
 </div>
 
-## Game History
-| Action | Events | Actor |
-| ------ | ------ | ----- |
-| New Game || <a href='https://github.com/antoniooodev'>antoniooodev</a> |
-
-<!-- /blackjack-area -->
-
-##
-
 ### Game Commands
 
 <div>
@@ -149,6 +140,15 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 
 </div>
 
+## Game History
+| Action | Events | Actor |
+| ------ | ------ | ----- |
+| New Game || <a href='https://github.com/antoniooodev'>antoniooodev</a> |
+
+<!-- /blackjack-area -->
+
+
+
 ###
 
 <details><summary>How it works</summary>
@@ -157,8 +157,3 @@ When you click on a link, it will create and submit a new GitHub issue with the 
 
 </details>
 
-<details><summary>Questions/Bugs/Ideas</summary>
-
-If you have any questions, encounter any bugs or have ideas to improve the game, you can simply create an issue and mention me.
-
-</details>
