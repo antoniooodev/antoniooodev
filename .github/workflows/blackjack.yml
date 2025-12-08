@@ -12,7 +12,6 @@ jobs:
       contents: write
       issues: write
 
-
     steps:
       - name: Check if issue title contains Blackjack
         id: check_blackjack
@@ -55,25 +54,9 @@ jobs:
         if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
         run: npm run build
 
-      - name: Import GPG private key
-        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
-        run: |
-          echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --import
-
-      - name: Decrypt game state
-        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
-        run: |
-          gpg --quiet --batch --yes --decrypt --output data/game_state_blackjack.json data/game_state_blackjack.json.gpg
-
       - name: Run
         if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
         run: npm start
-
-      - name: Encrypt game state
-        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
-        run: |
-          gpg --yes --batch --trust-model always --encrypt --recipient "${{ secrets.GPG_EMAIL }}" \
-          --output data/game_state_blackjack.json.gpg data/game_state_blackjack.json
 
       - name: Check for changes
         id: check_changes
@@ -87,6 +70,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/game_state_blackjack.json.gpg README.md
+          git add data/game_state_blackjack.json README.md
           git commit -m "${{ github.event.issue.title }} by ${{ github.actor }} - See: #${{github.event.issue.number}}"
           git push origin master
