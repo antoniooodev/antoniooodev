@@ -8,9 +8,10 @@ jobs:
   blackjack_job:
     runs-on: ubuntu-latest
     permissions:
-      actions: read
+      actions: write
       contents: write
       issues: write
+
 
     steps:
       - name: Check if issue title contains Blackjack
@@ -60,10 +61,12 @@ jobs:
           echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --import
 
       - name: Decrypt game state
+        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
         run: |
           gpg --quiet --batch --yes --decrypt --output data/game_state_blackjack.json data/game_state_blackjack.json.gpg
 
       - name: Run
+        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
         run: npm start
 
       - name: Encrypt game state
