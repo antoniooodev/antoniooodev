@@ -1,0 +1,259 @@
+{
+  "deck": [
+    {
+      "suit": "h",
+      "rank": "6"
+    },
+    {
+      "suit": "c",
+      "rank": "3"
+    },
+    {
+      "suit": "d",
+      "rank": "5"
+    },
+    {
+      "suit": "c",
+      "rank": "T"
+    },
+    {
+      "suit": "c",
+      "rank": "5"
+    },
+    {
+      "suit": "s",
+      "rank": "K"
+    },
+    {
+      "suit": "s",
+      "rank": "A"
+    },
+    {
+      "suit": "s",
+      "rank": "T"
+    },
+    {
+      "suit": "c",
+      "rank": "Q"
+    },
+    {
+      "suit": "c",
+      "rank": "A"
+    },
+    {
+      "suit": "h",
+      "rank": "Q"
+    },
+    {
+      "suit": "d",
+      "rank": "8"
+    },
+    {
+      "suit": "s",
+      "rank": "5"
+    },
+    {
+      "suit": "d",
+      "rank": "4"
+    },
+    {
+      "suit": "s",
+      "rank": "6"
+    },
+    {
+      "suit": "h",
+      "rank": "J"
+    },
+    {
+      "suit": "d",
+      "rank": "K"
+    },
+    {
+      "suit": "h",
+      "rank": "2"
+    },
+    {
+      "suit": "s",
+      "rank": "3"
+    },
+    {
+      "suit": "s",
+      "rank": "4"
+    },
+    {
+      "suit": "d",
+      "rank": "J"
+    },
+    {
+      "suit": "h",
+      "rank": "5"
+    },
+    {
+      "suit": "h",
+      "rank": "3"
+    },
+    {
+      "suit": "d",
+      "rank": "2"
+    },
+    {
+      "suit": "s",
+      "rank": "J"
+    },
+    {
+      "suit": "c",
+      "rank": "2"
+    },
+    {
+      "suit": "s",
+      "rank": "8"
+    },
+    {
+      "suit": "h",
+      "rank": "T"
+    },
+    {
+      "suit": "d",
+      "rank": "A"
+    },
+    {
+      "suit": "s",
+      "rank": "7"
+    },
+    {
+      "suit": "s",
+      "rank": "2"
+    },
+    {
+      "suit": "c",
+      "rank": "7"
+    },
+    {
+      "suit": "d",
+      "rank": "9"
+    },
+    {
+      "suit": "c",
+      "rank": "9"
+    },
+    {
+      "suit": "c",
+      "rank": "8"
+    },
+    {
+      "suit": "h",
+      "rank": "8"
+    },
+    {
+      "suit": "c",
+      "rank": "6"
+    },
+    {
+      "suit": "s",
+      "rank": "9"
+    },
+    {
+      "suit": "c",
+      "rank": "J"
+    },
+    {
+      "suit": "d",
+      "rank": "Q"
+    },
+    {
+      "suit": "c",
+      "rank": "K"
+    },
+    {
+      "suit": "h",
+      "rank": "K"
+    },
+    {
+      "suit": "d",
+      "rank": "3"
+    },
+    {
+      "suit": "c",
+      "rank": "4"
+    },
+    {
+      "suit": "h",
+      "rank": "7"
+    },
+    {
+      "suit": "h",
+      "rank": "9"
+    },
+    {
+      "suit": "s",
+      "rank": "Q"
+    },
+    {
+      "suit": "d",
+      "rank": "7"
+    }
+  ],
+  "player": [
+    {
+      "suit": "d",
+      "rank": "6",
+      "hidden": false
+    },
+    {
+      "suit": "d",
+      "rank": "T",
+      "hidden": false
+    }
+  ],
+  "dealer": [
+    {
+      "suit": "h",
+      "rank": "A",
+      "hidden": true
+    },
+    {
+      "suit": "h",
+      "rank": "4",
+      "hidden": false
+    }
+  ],
+  "isFinished": false,
+  "history": [
+    {
+      "action": "New Game",
+      "actor": "antoniooodev",
+      "cardsInPlay": [
+        {
+          "owner": "Dealer",
+          "cards": [
+            {
+              "suit": "h",
+              "rank": "A",
+              "hidden": true
+            },
+            {
+              "suit": "h",
+              "rank": "4",
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "owner": "Player",
+          "cards": [
+            {
+              "suit": "d",
+              "rank": "6",
+              "hidden": false
+            },
+            {
+              "suit": "d",
+              "rank": "T",
+              "hidden": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
