@@ -1,4 +1,4 @@
-# Hey there! I'm Antonio
+# Hey there! I'm Antonio 🍕 🇮🇹 🧑‍💻
 
 <h1> 🛠 &nbsp;Tech Stack</h1>
 
