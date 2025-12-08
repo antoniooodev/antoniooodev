@@ -76,9 +76,9 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 
 <div>
 
-[![Hit Button](https://img.shields.io/badge/Hit-224D42?style=for-the-badge)](https://github.com/agonyz/readme-blackjack/issues/new?body=Please%20don%27t%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue.&title=Blackjack:%20Hit)
-[![Stand Button](https://img.shields.io/badge/Stand-ffc107?style=for-the-badge)](https://github.com/agonyz/readme-blackjack/issues/new?body=Please%20don%27t%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue.&title=Blackjack:%20Stand)
-[![Start new Game Button](https://img.shields.io/badge/New%20Game-701F18?style=for-the-badge)](https://github.com/agonyz/readme-blackjack/issues/new?body=Please%20don%27t%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue.&title=Blackjack:%20New%20Game)
+[![Hit Button](https://img.shields.io/badge/Hit-224D42?style=for-the-badge)](https://github.com/antoniooodev/antoniooodev_temp/issues/new?body=Please%20don%27t%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue.&title=Blackjack:%20Hit)
+[![Stand Button](https://img.shields.io/badge/Stand-ffc107?style=for-the-badge)](https://github.com/antoniooodev/antoniooodev_temp/issues/new?body=Please%20don%27t%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue.&title=Blackjack:%20Stand)
+[![Start new Game Button](https://img.shields.io/badge/New%20Game-701F18?style=for-the-badge)](https://github.com/antoniooodev/antoniooodev_temp/issues/new?body=Please%20don%27t%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue.&title=Blackjack:%20New%20Game)
 
 </div>
 
