@@ -45,7 +45,11 @@
 ###
 
 <a href="https://github.com/antoniooodev">
-  <img src="https://github-readme-stats-eight-jade-31.vercel.app/api/pin/?username=antoniooodev&repo=instagram-copywriter&show_owner=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=antoniooodev&theme=github_dark"
+    width="520"
+    alt="GitHub profile details"
+  />  
   <img src="https://github-readme-stats-eight-jade-31.vercel.app/api/top-langs/?username=antoniooodev&langs_count=7&layout=donut&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
 </a>
 
