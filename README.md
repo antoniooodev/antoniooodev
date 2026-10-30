@@ -24,84 +24,30 @@
 
 <br/>
 
-<h1>  🃏 &nbsp Blackjack </h1> 
-Test your luck and strategy in this classic card game. Your goal is to get as close to 21 as possible without going over.
+## Blackjack
 
-Choose Your Action:
-- Hit 🎴: Draw another card.
-- Stand 🛑: Keep your current hand.
-- New Game 🔄: Start a new game and clear the board.
-
-Ready to play? Click one of the buttons below to make your move and submit your choice! 🍀
+Get as close to 21 as you can without going over. Pick a move: it opens an issue, a GitHub Action plays it and updates this page within a minute.
 
 <!-- blackjack-area -->
 
-## Dealer
-<div>
+<p align="center"><b>Dealer</b>&nbsp;&nbsp;·&nbsp;&nbsp;22</p>
+<p align="center"><img width="70" src="assets/cards/AH.svg" alt="Ah" />&nbsp;<img width="70" src="assets/cards/4H.svg" alt="4h" />&nbsp;<img width="70" src="assets/cards/7D.svg" alt="7d" />&nbsp;<img width="70" src="assets/cards/QS.svg" alt="Qs" /></p>
 
-<table>
-  <tr>
-    <th></th>
-    <th>Card #1</th><th>Card #2</th><th>Card #3</th><th>Card #4</th>
-    <th>Summary</th>
-  </tr>
-  <tr>
-    <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/AH.svg" alt="Ah"></td><td><img width="75" src="assets/cards/4H.svg" alt="4h"></td><td><img width="75" src="assets/cards/7D.svg" alt="7d"></td><td><img width="75" src="assets/cards/QS.svg" alt="Qs"></td>
-    <td align="center">❌</td>
-  </tr>
-  <tr>
-    <td><strong>Values</strong></td>
-    <td align="center">1</td><td align="center">4</td><td align="center">7</td><td align="center">10</td>
-    <td align="center">22</td>
-  </tr>
-</table>
-  
-</div>
+<h3 align="center">Player wins · dealer busts</h3>
 
-## Player
-<div>
+<p align="center"><img width="70" src="assets/cards/6D.svg" alt="6d" />&nbsp;<img width="70" src="assets/cards/TD.svg" alt="Td" /></p>
+<p align="center"><b>Player</b>&nbsp;&nbsp;·&nbsp;&nbsp;16</p>
 
-<table>
-  <tr>
-    <th></th>
-    <th>Card #1</th><th>Card #2</th>
-    <th>Summary</th>
-  </tr>
-  <tr>
-    <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/6D.svg" alt="6d"></td><td><img width="75" src="assets/cards/TD.svg" alt="Td"></td>
-    <td align="center">✔️</td>
-  </tr>
-  <tr>
-    <td><strong>Values</strong></td>
-    <td align="center">6</td><td align="center">10</td>
-    <td align="center">16</td>
-  </tr>
-</table>
-  
-</div>
+<p align="center">
+  <a href="https://github.com/antoniooodev/antoniooodev/issues/new?title=Blackjack%3A%20New%20Game&body=Please%20don't%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue."><img src="https://img.shields.io/badge/New%20Game-238636?style=for-the-badge" alt="New Game" /></a>
+</p>
 
-## Game History
-| Action | Events | Actor |
-| ------ | ------ | ----- |
-| New Game || <a href='https://github.com/antoniooodev'>antoniooodev</a> |
-| Stand || <a href='https://github.com/bellins14'>bellins14</a> |
-| ↳ | Dealer: Draw Card ||
-| ↳ | Dealer: Draw Card ||
-| ↳ | Dealer: Reveal Hole Card ||
-| ↳ | Player won: Dealer busted ||
-| ↳ | Game Finished: Thank you for playing! ||
+<details>
+<summary>Game history</summary>
 
-<!-- /blackjack-area -->
-
-
-
-###
-
-<details><summary>How it works</summary>
-
-When you click on a link, it will create and submit a new GitHub issue with the desired action. This action triggers a GitHub workflow, which runs a small Typescript script responsible for executing the specified action in the blackjack game. The script then updates the content of the README file to reflect the current game state and commits the changes back to the repository.
+- **New Game** by [antoniooodev](https://github.com/antoniooodev)
+- **Stand** by [bellins14](https://github.com/bellins14)<br/><sub>Dealer: Draw Card → Dealer: Draw Card → Dealer: Reveal Hole Card → Player won: Dealer busted</sub>
 
 </details>
 
+<!-- /blackjack-area -->

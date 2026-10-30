@@ -1,97 +1,90 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { GameState, HandCard, HistoryEntry } from '../types';
-import { calculateHandValue, cardValue, getAceDisplayValue } from './hand';
-import { getGameResult } from './game';
+import { CardOwner, GameState, HandCard, HistoryEntry, Step } from '../types';
+import { calculateHandValue } from './hand';
 
 const readmePath = path.join(__dirname, '..', '..', 'README.md');
 
-export const generateCardTableMarkdown = (
+const resultMessages: Partial<Record<Step, string>> = {
+  'Player won: Dealer busted': 'Player wins · dealer busts',
+  'Player won: Is closer to 21': 'Player wins · closer to 21',
+  'Dealer won: Player busted': 'Dealer wins · player busts',
+  'Dealer won: Is closer to 21': 'Dealer wins · closer to 21',
+  'Tie: Both parties busted': 'Push · both bust',
+  'Tie: Both parties are equally close to 21': 'Push · same total',
+};
+
+// The first available move is the suggested one and gets the accent color.
+const primaryColor = '238636';
+const secondaryColor = '30363d';
+
+const getRepository = () =>
+  process.env.GITHUB_REPOSITORY ?? 'antoniooodev/antoniooodev';
+
+export const generateHandMarkdown = (
+  owner: CardOwner,
   cards: HandCard[],
-  result?: 'win' | 'loss' | 'tie',
 ): string => {
-  const cardHeaders = cards
-    .map((_, index) => `Card #${index + 1}`)
-    .join('</th><th>');
+  const hasHiddenCard = cards.some((card) => card.hidden);
+  const value = `${calculateHandValue(cards, true)}${hasHiddenCard ? ' + ?' : ''}`;
 
-  const cardImages = cards
+  const images = cards
     .map((card) => {
-      const cardFilename = card.hidden
-        ? 'RED_BACK'
-        : `${card.rank}${card.suit}`;
-      const cardAlt = card.hidden ? 'Hidden Card' : `${card.rank}${card.suit}`;
-      return `<img width="75" src="assets/cards/${cardFilename.toUpperCase()}.svg" alt="${cardAlt}">`;
+      const filename = card.hidden ? 'RED_BACK' : `${card.rank}${card.suit}`;
+      const alt = card.hidden ? 'Hidden card' : `${card.rank}${card.suit}`;
+      return `<img width="70" src="assets/cards/${filename.toUpperCase()}.svg" alt="${alt}" />`;
     })
-    .join('</td><td>');
+    .join('&nbsp;');
 
-  const visibleHandValue = calculateHandValue(cards, true);
+  const label = `<p align="center"><b>${owner}</b>&nbsp;&nbsp;·&nbsp;&nbsp;${value}</p>`;
+  const hand = `<p align="center">${images}</p>`;
 
-  let aceCount = 0;
-  const cardValues = cards
-    .map((card, index) => {
-      if (card.hidden) {
-        return '?';
-      } else if (card.rank === 'A') {
-        aceCount++;
-        return getAceDisplayValue(cards, aceCount - 1);
-      } else {
-        return cardValue(card);
-      }
-    })
-    .join('</td><td align="center">');
+  // The dealer sits on top of the table, the player at the bottom.
+  return owner === 'Dealer' ? `${label}\n${hand}` : `${hand}\n${label}`;
+};
 
-  let resultSymbol = '';
-  switch (result) {
-    case 'win':
-      resultSymbol = '✔️';
-      break;
-    case 'loss':
-      resultSymbol = '❌';
-      break;
-    case 'tie':
-      resultSymbol = '🤝';
-      break;
-    default:
-      resultSymbol = '';
+export const generateStatusMarkdown = (gameState: GameState): string => {
+  if (!gameState.isFinished) {
+    return "Player's turn · Hit or Stand?";
   }
 
-  return `
-<table>
-  <tr>
-    <th></th>
-    <th>${cardHeaders}</th>
-    <th>Summary</th>
-  </tr>
-  <tr>
-    <td><strong>Cards</strong></td>
-    <td align="center">${cardImages}</td>
-    <td align="center">${resultSymbol}</td>
-  </tr>
-  <tr>
-    <td><strong>Values</strong></td>
-    <td align="center">${cardValues}</td>
-    <td align="center">${visibleHandValue}</td>
-  </tr>
-</table>
-  `;
+  const steps = gameState.history.flatMap(
+    (entry) => entry.events?.map((event) => event.step) ?? [],
+  );
+  const result = steps.reverse().find((step) => resultMessages[step]);
+
+  return result ? resultMessages[result]! : 'Game over';
+};
+
+export const generateActionsMarkdown = (gameState: GameState): string => {
+  const actions = gameState.isFinished
+    ? (['New Game'] as const)
+    : (['Hit', 'Stand', 'New Game'] as const);
+  const body = encodeURIComponent(
+    "Please don't change anything in this issue. To execute your action simply submit the issue.",
+  );
+
+  return actions
+    .map((action, index) => {
+      const color = index === 0 ? primaryColor : secondaryColor;
+      const title = encodeURIComponent(`Blackjack: ${action}`);
+      const badge = `https://img.shields.io/badge/${encodeURIComponent(action)}-${color}?style=for-the-badge`;
+      return `<a href="https://github.com/${getRepository()}/issues/new?title=${title}&body=${body}"><img src="${badge}" alt="${action}" /></a>`;
+    })
+    .join('\n  ');
 };
 
 export const generateHistoryMarkdown = (history: HistoryEntry[]): string => {
   return history
-    .map(({ action, events, actor, cardsInPlay }) => {
-      const actionActorUrl =
+    .map(({ action, events, actor }) => {
+      const actorUrl =
         actor === 'Dealer'
-          ? "<a href='https://github.com/agonyz'>Dealer</a>"
-          : `<a href='https://github.com/${actor}'>${actor}</a>`;
-      const actionRow = `| ${action} || ${actionActorUrl} |`;
-      const eventsRows = events
-        ? events
-            .map(({ step, cardsInPlay }) => {
-              return `| ↳ | ${step} ||`;
-            })
-            .join('\n')
+          ? '[Dealer](https://github.com/agonyz)'
+          : `[${actor}](https://github.com/${actor})`;
+      const steps = events?.length
+        ? `<br/><sub>${events.map(({ step }) => step).join(' → ')}</sub>`
         : '';
-      return eventsRows ? `${actionRow}\n${eventsRows}` : actionRow;
+      return `- **${action}** by ${actorUrl}${steps}`;
     })
     .join('\n');
 };
@@ -100,48 +93,36 @@ export const updateReadmeContent = async (
   gameState: GameState,
 ): Promise<void> => {
   try {
-    const dealerResult = getGameResult(gameState.winner, false);
-    const playerResult = getGameResult(gameState.winner, true);
-
-    const dealerCardsMarkdown = generateCardTableMarkdown(
-      gameState.dealer,
-      dealerResult,
-    );
-
-    const playerCardsMarkdown = generateCardTableMarkdown(
-      gameState.player,
-      playerResult,
-    );
-
-    const historyMarkdown = generateHistoryMarkdown(gameState.history);
     let readmeContent = await fs.readFile(readmePath, 'utf-8');
     const newContent = `
-## Dealer
-<div>
-${dealerCardsMarkdown}
-</div>
+${generateHandMarkdown('Dealer', gameState.dealer)}
 
-## Player
-<div>
-${playerCardsMarkdown}
-</div>
+<h3 align="center">${generateStatusMarkdown(gameState)}</h3>
 
-## Game History
-| Action | Events | Actor |
-| ------ | ------ | ----- |
-${historyMarkdown}
+${generateHandMarkdown('Player', gameState.player)}
+
+<p align="center">
+  ${generateActionsMarkdown(gameState)}
+</p>
+
+<details>
+<summary>Game history</summary>
+
+${generateHistoryMarkdown(gameState.history)}
+
+</details>
 `;
 
     const startMarker = '<!-- blackjack-area -->';
     const endMarker = '<!-- /blackjack-area -->';
-    const startIndex = readmeContent.indexOf(startMarker) + startMarker.length;
+    const startIndex = readmeContent.indexOf(startMarker);
     const endIndex = readmeContent.indexOf(endMarker);
 
     if (startIndex === -1 || endIndex === -1) {
       console.error('Markers not found in README.md');
       return;
     }
-    readmeContent = `${readmeContent.substring(0, startIndex)}\n${newContent}\n${readmeContent.substring(endIndex)}`;
+    readmeContent = `${readmeContent.substring(0, startIndex + startMarker.length)}\n${newContent}\n${readmeContent.substring(endIndex)}`;
 
     await fs.writeFile(readmePath, readmeContent, 'utf-8');
   } catch (error) {
