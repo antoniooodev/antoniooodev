@@ -1,82 +1,34 @@
 # Hey there! I'm Antonio 🍕 🇮🇹 🧑‍💻
 
-<h1> 🛠 &nbsp;Tech Stack</h1>
+## Tech Stack
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="30" alt="django logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="30" alt="fastapi logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="30" alt="npm logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="30" alt="angularjs logo"  />
-</div>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=ts,js,py,java,c,cpp,cs,php,html,css,react,angular,nodejs,django,fastapi,flutter,git,npm&perline=9" height="88" alt="TypeScript, JavaScript, Python, Java, C, C++, C#, PHP, HTML, CSS, React, Angular, Node.js, Django, FastAPI, Flutter, Git, npm" />
+</a>
 
-###
+## Contributions
 
-<p align="center">
-  <a href="https://github.com/antoniooodev">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=antoniooodev&theme=github_dark"
-         width="340" alt="GitHub profile details" />
-  </a>
-  <br/>
-  <img src="https://github-readme-stats-eight-jade-31.vercel.app/api/top-langs/?username=antoniooodev&langs_count=7&layout=donut&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&size_weight=0.5&count_weight=0.5&exclude_repo=Unipd_Presentation&hide=TeX&cache_seconds=86400"
-     width="340" alt="Top languages" />
-  </a>
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=antoniooodev&hide_border=true&background=00000000&date_format=M%20j%5B%2C%20Y%5D&stroke=30363d&ring=c9d1d9&fire=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=c9d1d9&sideLabels=8b949e&dates=8b949e" />
+    <img src="https://streak-stats.demolab.com?user=antoniooodev&hide_border=true&background=00000000&date_format=M%20j%5B%2C%20Y%5D&stroke=d0d7de&ring=1f2328&fire=1f2328&currStreakNum=1f2328&sideNums=1f2328&currStreakLabel=1f2328&sideLabels=656d76&dates=656d76" height="165" alt="GitHub contribution streak" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-jade-31.vercel.app/api/top-langs/?username=antoniooodev&layout=compact&langs_count=6&hide_border=true&hide_title=true&card_width=320&bg_color=00000000&title_color=c9d1d9&text_color=8b949e&exclude_repo=Unipd_Presentation&hide=TeX&cache_seconds=86400" />
+    <img src="https://github-readme-stats-eight-jade-31.vercel.app/api/top-langs/?username=antoniooodev&layout=compact&langs_count=6&hide_border=true&hide_title=true&card_width=320&bg_color=00000000&title_color=1f2328&text_color=656d76&exclude_repo=Unipd_Presentation&hide=TeX&cache_seconds=86400" height="165" alt="Most used languages" />
+  </picture>
 </p>
 
-<h1> 🤝🏻 &nbsp;Connect with Me </h3>
+## Connect with Me
 
-<img align="right" height="100" src="https://gifdb.com/images/high/american-psycho-patrick-bateman-walking-8g7gjtik0okcu7je.webp"  />
+<p>
+  <a href="https://www.linkedin.com/in/antonio-tangaro-b356492b7/" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" height="36" alt="LinkedIn" /></a>
+  <a href="https://www.instagram.com/_akatoni/?hl=it" target="_blank"><img src="https://skillicons.dev/icons?i=instagram" height="36" alt="Instagram" /></a>
+  <a href="https://discordapp.com/users/149966308304355328" target="_blank"><img src="https://skillicons.dev/icons?i=discord" height="36" alt="Discord" /></a>
+  <a href="https://stackoverflow.com/users/21830548/antonio" target="_blank"><img src="https://skillicons.dev/icons?i=stackoverflow" height="36" alt="Stack Overflow" /></a>
+</p>
 
-###
-
-<div align="center">
-  <a href="https://www.instagram.com/_akatoni/?hl=it" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="55" height="35" alt="instagram logo"  />
-  </a>
-  <a href="https://discordapp.com/users/149966308304355328" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="55" height="35" alt="discord logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/antonio-tangaro-b356492b7/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="55" height="35" alt="linkedin logo"  />
-  </a>
-  <a href="https://stackoverflow.com/users/21830548/antonio" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/stackoverflow/default.svg" width="55" height="35" alt="stackoverflow logo"  />
-  </a>
-</div>
-
-###
+<br/>
 
 <h1>  🃏 &nbsp Blackjack </h1> 
 Test your luck and strategy in this classic card game. Your goal is to get as close to 21 as possible without going over.
