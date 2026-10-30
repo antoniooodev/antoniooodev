@@ -8,16 +8,10 @@
 
 ## Contributions
 
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=antoniooodev&hide_border=true&background=00000000&date_format=M%20j%5B%2C%20Y%5D&stroke=30363d&ring=c9d1d9&fire=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=c9d1d9&sideLabels=8b949e&dates=8b949e" />
-    <img src="https://streak-stats.demolab.com?user=antoniooodev&hide_border=true&background=00000000&date_format=M%20j%5B%2C%20Y%5D&stroke=d0d7de&ring=1f2328&fire=1f2328&currStreakNum=1f2328&sideNums=1f2328&currStreakLabel=1f2328&sideLabels=656d76&dates=656d76" height="165" alt="GitHub contribution streak" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-jade-31.vercel.app/api/top-langs/?username=antoniooodev&layout=compact&langs_count=6&hide_border=true&hide_title=true&card_width=320&bg_color=00000000&title_color=c9d1d9&text_color=8b949e&exclude_repo=Unipd_Presentation&hide=TeX&cache_seconds=86400" />
-    <img src="https://github-readme-stats-eight-jade-31.vercel.app/api/top-langs/?username=antoniooodev&layout=compact&langs_count=6&hide_border=true&hide_title=true&card_width=320&bg_color=00000000&title_color=1f2328&text_color=656d76&exclude_repo=Unipd_Presentation&hide=TeX&cache_seconds=86400" height="165" alt="Most used languages" />
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/antoniooodev/antoniooodev/master/assets/contributions/dark.svg" />
+  <img src="https://raw.githubusercontent.com/antoniooodev/antoniooodev/master/assets/contributions/light.svg" width="100%" alt="My GitHub contributions in the last year" />
+</picture>
 
 ## Connect with Me
 
