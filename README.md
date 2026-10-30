@@ -96,18 +96,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th>
+    <th>Card #1</th><th>Card #2</th><th>Card #3</th><th>Card #4</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/4H.svg" alt="4h"></td>
-    <td align="center"></td>
+    <td align="center"><img width="75" src="assets/cards/AH.svg" alt="Ah"></td><td><img width="75" src="assets/cards/4H.svg" alt="4h"></td><td><img width="75" src="assets/cards/7D.svg" alt="7d"></td><td><img width="75" src="assets/cards/QS.svg" alt="Qs"></td>
+    <td align="center">❌</td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">?</td><td align="center">4</td>
-    <td align="center">4</td>
+    <td align="center">1</td><td align="center">4</td><td align="center">7</td><td align="center">10</td>
+    <td align="center">22</td>
   </tr>
 </table>
   
@@ -125,7 +125,7 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   <tr>
     <td><strong>Cards</strong></td>
     <td align="center"><img width="75" src="assets/cards/6D.svg" alt="6d"></td><td><img width="75" src="assets/cards/TD.svg" alt="Td"></td>
-    <td align="center"></td>
+    <td align="center">✔️</td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
@@ -136,20 +136,16 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   
 </div>
 
-### Game Commands
-
-<div>
-
-[![Hit Button](https://img.shields.io/badge/Hit-224D42?style=for-the-badge)](https://github.com/antoniooodev/antoniooodev_temp/issues/new?body=Please%20don%27t%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue.&title=Blackjack:%20Hit)
-[![Stand Button](https://img.shields.io/badge/Stand-ffc107?style=for-the-badge)](https://github.com/antoniooodev/antoniooodev_temp/issues/new?body=Please%20don%27t%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue.&title=Blackjack:%20Stand)
-[![Start new Game Button](https://img.shields.io/badge/New%20Game-701F18?style=for-the-badge)](https://github.com/antoniooodev/antoniooodev_temp/issues/new?body=Please%20don%27t%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue.&title=Blackjack:%20New%20Game)
-
-</div>
-
 ## Game History
 | Action | Events | Actor |
 | ------ | ------ | ----- |
 | New Game || <a href='https://github.com/antoniooodev'>antoniooodev</a> |
+| Stand || <a href='https://github.com/bellins14'>bellins14</a> |
+| ↳ | Dealer: Draw Card ||
+| ↳ | Dealer: Draw Card ||
+| ↳ | Dealer: Reveal Hole Card ||
+| ↳ | Player won: Dealer busted ||
+| ↳ | Game Finished: Thank you for playing! ||
 
 <!-- /blackjack-area -->
 

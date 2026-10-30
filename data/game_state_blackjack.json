@@ -183,14 +183,6 @@
     {
       "suit": "h",
       "rank": "9"
-    },
-    {
-      "suit": "s",
-      "rank": "Q"
-    },
-    {
-      "suit": "d",
-      "rank": "7"
     }
   ],
   "player": [
@@ -209,15 +201,25 @@
     {
       "suit": "h",
       "rank": "A",
-      "hidden": true
+      "hidden": false
     },
     {
       "suit": "h",
       "rank": "4",
       "hidden": false
+    },
+    {
+      "suit": "d",
+      "rank": "7",
+      "hidden": false
+    },
+    {
+      "suit": "s",
+      "rank": "Q",
+      "hidden": false
     }
   ],
-  "isFinished": false,
+  "isFinished": true,
   "history": [
     {
       "action": "New Game",
@@ -254,6 +256,235 @@
           ]
         }
       ]
+    },
+    {
+      "action": "Stand",
+      "actor": "bellins14",
+      "cardsInPlay": [
+        {
+          "owner": "Dealer",
+          "cards": [
+            {
+              "suit": "h",
+              "rank": "A",
+              "hidden": false
+            },
+            {
+              "suit": "h",
+              "rank": "4",
+              "hidden": false
+            },
+            {
+              "suit": "d",
+              "rank": "7",
+              "hidden": false
+            },
+            {
+              "suit": "s",
+              "rank": "Q",
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "owner": "Player",
+          "cards": [
+            {
+              "suit": "d",
+              "rank": "6",
+              "hidden": false
+            },
+            {
+              "suit": "d",
+              "rank": "T",
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "step": "Dealer: Draw Card",
+          "cardsInPlay": [
+            {
+              "owner": "Dealer",
+              "cards": [
+                {
+                  "suit": "h",
+                  "rank": "A",
+                  "hidden": false
+                },
+                {
+                  "suit": "h",
+                  "rank": "4",
+                  "hidden": false
+                },
+                {
+                  "suit": "d",
+                  "rank": "7",
+                  "hidden": false
+                },
+                {
+                  "suit": "s",
+                  "rank": "Q",
+                  "hidden": false
+                }
+              ]
+            },
+            {
+              "owner": "Player",
+              "cards": [
+                {
+                  "suit": "d",
+                  "rank": "6",
+                  "hidden": false
+                },
+                {
+                  "suit": "d",
+                  "rank": "T",
+                  "hidden": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "step": "Dealer: Draw Card",
+          "cardsInPlay": [
+            {
+              "owner": "Dealer",
+              "cards": [
+                {
+                  "suit": "h",
+                  "rank": "A",
+                  "hidden": false
+                },
+                {
+                  "suit": "h",
+                  "rank": "4",
+                  "hidden": false
+                },
+                {
+                  "suit": "d",
+                  "rank": "7",
+                  "hidden": false
+                },
+                {
+                  "suit": "s",
+                  "rank": "Q",
+                  "hidden": false
+                }
+              ]
+            },
+            {
+              "owner": "Player",
+              "cards": [
+                {
+                  "suit": "d",
+                  "rank": "6",
+                  "hidden": false
+                },
+                {
+                  "suit": "d",
+                  "rank": "T",
+                  "hidden": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "step": "Dealer: Reveal Hole Card",
+          "cardsInPlay": [
+            {
+              "owner": "Dealer",
+              "cards": [
+                {
+                  "suit": "h",
+                  "rank": "A",
+                  "hidden": false
+                },
+                {
+                  "suit": "h",
+                  "rank": "4",
+                  "hidden": false
+                },
+                {
+                  "suit": "d",
+                  "rank": "7",
+                  "hidden": false
+                },
+                {
+                  "suit": "s",
+                  "rank": "Q",
+                  "hidden": false
+                }
+              ]
+            },
+            {
+              "owner": "Player",
+              "cards": [
+                {
+                  "suit": "d",
+                  "rank": "6",
+                  "hidden": false
+                },
+                {
+                  "suit": "d",
+                  "rank": "T",
+                  "hidden": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "step": "Player won: Dealer busted",
+          "cardsInPlay": [
+            {
+              "owner": "Dealer",
+              "cards": [
+                {
+                  "suit": "h",
+                  "rank": "A",
+                  "hidden": false
+                },
+                {
+                  "suit": "h",
+                  "rank": "4",
+                  "hidden": false
+                },
+                {
+                  "suit": "d",
+                  "rank": "7",
+                  "hidden": false
+                },
+                {
+                  "suit": "s",
+                  "rank": "Q",
+                  "hidden": false
+                }
+              ]
+            },
+            {
+              "owner": "Player",
+              "cards": [
+                {
+                  "suit": "d",
+                  "rank": "6",
+                  "hidden": false
+                },
+                {
+                  "suit": "d",
+                  "rank": "T",
+                  "hidden": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "winner": "Player"
 }
