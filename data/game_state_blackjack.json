@@ -2,11 +2,31 @@
   "deck": [
     {
       "suit": "h",
-      "rank": "6"
+      "rank": "A"
     },
     {
-      "suit": "c",
+      "suit": "d",
+      "rank": "4"
+    },
+    {
+      "suit": "s",
+      "rank": "2"
+    },
+    {
+      "suit": "h",
+      "rank": "K"
+    },
+    {
+      "suit": "h",
       "rank": "3"
+    },
+    {
+      "suit": "d",
+      "rank": "T"
+    },
+    {
+      "suit": "d",
+      "rank": "K"
     },
     {
       "suit": "d",
@@ -14,23 +34,143 @@
     },
     {
       "suit": "c",
+      "rank": "9"
+    },
+    {
+      "suit": "h",
+      "rank": "J"
+    },
+    {
+      "suit": "d",
+      "rank": "A"
+    },
+    {
+      "suit": "h",
+      "rank": "9"
+    },
+    {
+      "suit": "d",
+      "rank": "9"
+    },
+    {
+      "suit": "c",
       "rank": "T"
     },
     {
       "suit": "c",
-      "rank": "5"
+      "rank": "4"
+    },
+    {
+      "suit": "c",
+      "rank": "J"
+    },
+    {
+      "suit": "h",
+      "rank": "4"
     },
     {
       "suit": "s",
-      "rank": "K"
+      "rank": "9"
+    },
+    {
+      "suit": "c",
+      "rank": "7"
+    },
+    {
+      "suit": "s",
+      "rank": "Q"
+    },
+    {
+      "suit": "h",
+      "rank": "Q"
+    },
+    {
+      "suit": "h",
+      "rank": "2"
+    },
+    {
+      "suit": "h",
+      "rank": "5"
+    },
+    {
+      "suit": "h",
+      "rank": "7"
+    },
+    {
+      "suit": "c",
+      "rank": "2"
+    },
+    {
+      "suit": "d",
+      "rank": "6"
     },
     {
       "suit": "s",
       "rank": "A"
     },
     {
-      "suit": "s",
+      "suit": "d",
+      "rank": "Q"
+    },
+    {
+      "suit": "c",
+      "rank": "5"
+    },
+    {
+      "suit": "d",
+      "rank": "3"
+    },
+    {
+      "suit": "h",
       "rank": "T"
+    },
+    {
+      "suit": "c",
+      "rank": "3"
+    },
+    {
+      "suit": "s",
+      "rank": "4"
+    },
+    {
+      "suit": "c",
+      "rank": "K"
+    },
+    {
+      "suit": "s",
+      "rank": "8"
+    },
+    {
+      "suit": "s",
+      "rank": "7"
+    },
+    {
+      "suit": "s",
+      "rank": "J"
+    },
+    {
+      "suit": "d",
+      "rank": "7"
+    },
+    {
+      "suit": "c",
+      "rank": "6"
+    },
+    {
+      "suit": "d",
+      "rank": "2"
+    },
+    {
+      "suit": "c",
+      "rank": "8"
+    },
+    {
+      "suit": "s",
+      "rank": "5"
+    },
+    {
+      "suit": "d",
+      "rank": "8"
     },
     {
       "suit": "c",
@@ -41,185 +181,43 @@
       "rank": "A"
     },
     {
-      "suit": "h",
-      "rank": "Q"
-    },
-    {
-      "suit": "d",
-      "rank": "8"
-    },
-    {
-      "suit": "s",
-      "rank": "5"
-    },
-    {
-      "suit": "d",
-      "rank": "4"
-    },
-    {
       "suit": "s",
       "rank": "6"
     },
     {
-      "suit": "h",
-      "rank": "J"
-    },
-    {
-      "suit": "d",
-      "rank": "K"
-    },
-    {
-      "suit": "h",
-      "rank": "2"
-    },
-    {
       "suit": "s",
-      "rank": "3"
-    },
-    {
-      "suit": "s",
-      "rank": "4"
-    },
-    {
-      "suit": "d",
-      "rank": "J"
-    },
-    {
-      "suit": "h",
-      "rank": "5"
-    },
-    {
-      "suit": "h",
-      "rank": "3"
-    },
-    {
-      "suit": "d",
-      "rank": "2"
-    },
-    {
-      "suit": "s",
-      "rank": "J"
-    },
-    {
-      "suit": "c",
-      "rank": "2"
-    },
-    {
-      "suit": "s",
-      "rank": "8"
-    },
-    {
-      "suit": "h",
       "rank": "T"
     },
     {
-      "suit": "d",
-      "rank": "A"
-    },
-    {
       "suit": "s",
-      "rank": "7"
-    },
-    {
-      "suit": "s",
-      "rank": "2"
-    },
-    {
-      "suit": "c",
-      "rank": "7"
-    },
-    {
-      "suit": "d",
-      "rank": "9"
-    },
-    {
-      "suit": "c",
-      "rank": "9"
-    },
-    {
-      "suit": "c",
-      "rank": "8"
-    },
-    {
-      "suit": "h",
-      "rank": "8"
-    },
-    {
-      "suit": "c",
-      "rank": "6"
-    },
-    {
-      "suit": "s",
-      "rank": "9"
-    },
-    {
-      "suit": "c",
-      "rank": "J"
-    },
-    {
-      "suit": "d",
-      "rank": "Q"
-    },
-    {
-      "suit": "c",
-      "rank": "K"
-    },
-    {
-      "suit": "h",
-      "rank": "K"
-    },
-    {
-      "suit": "d",
       "rank": "3"
-    },
-    {
-      "suit": "c",
-      "rank": "4"
-    },
-    {
-      "suit": "h",
-      "rank": "7"
-    },
-    {
-      "suit": "h",
-      "rank": "9"
     }
   ],
   "player": [
     {
-      "suit": "d",
+      "suit": "h",
       "rank": "6",
       "hidden": false
     },
     {
-      "suit": "d",
-      "rank": "T",
+      "suit": "s",
+      "rank": "K",
       "hidden": false
     }
   ],
   "dealer": [
     {
       "suit": "h",
-      "rank": "A",
-      "hidden": false
-    },
-    {
-      "suit": "h",
-      "rank": "4",
-      "hidden": false
+      "rank": "8",
+      "hidden": true
     },
     {
       "suit": "d",
-      "rank": "7",
-      "hidden": false
-    },
-    {
-      "suit": "s",
-      "rank": "Q",
+      "rank": "J",
       "hidden": false
     }
   ],
-  "isFinished": true,
+  "isFinished": false,
   "history": [
     {
       "action": "New Game",
@@ -230,12 +228,12 @@
           "cards": [
             {
               "suit": "h",
-              "rank": "A",
+              "rank": "8",
               "hidden": true
             },
             {
-              "suit": "h",
-              "rank": "4",
+              "suit": "d",
+              "rank": "J",
               "hidden": false
             }
           ]
@@ -244,247 +242,18 @@
           "owner": "Player",
           "cards": [
             {
-              "suit": "d",
+              "suit": "h",
               "rank": "6",
-              "hidden": false
-            },
-            {
-              "suit": "d",
-              "rank": "T",
-              "hidden": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "action": "Stand",
-      "actor": "bellins14",
-      "cardsInPlay": [
-        {
-          "owner": "Dealer",
-          "cards": [
-            {
-              "suit": "h",
-              "rank": "A",
-              "hidden": false
-            },
-            {
-              "suit": "h",
-              "rank": "4",
-              "hidden": false
-            },
-            {
-              "suit": "d",
-              "rank": "7",
               "hidden": false
             },
             {
               "suit": "s",
-              "rank": "Q",
+              "rank": "K",
               "hidden": false
-            }
-          ]
-        },
-        {
-          "owner": "Player",
-          "cards": [
-            {
-              "suit": "d",
-              "rank": "6",
-              "hidden": false
-            },
-            {
-              "suit": "d",
-              "rank": "T",
-              "hidden": false
-            }
-          ]
-        }
-      ],
-      "events": [
-        {
-          "step": "Dealer: Draw Card",
-          "cardsInPlay": [
-            {
-              "owner": "Dealer",
-              "cards": [
-                {
-                  "suit": "h",
-                  "rank": "A",
-                  "hidden": false
-                },
-                {
-                  "suit": "h",
-                  "rank": "4",
-                  "hidden": false
-                },
-                {
-                  "suit": "d",
-                  "rank": "7",
-                  "hidden": false
-                },
-                {
-                  "suit": "s",
-                  "rank": "Q",
-                  "hidden": false
-                }
-              ]
-            },
-            {
-              "owner": "Player",
-              "cards": [
-                {
-                  "suit": "d",
-                  "rank": "6",
-                  "hidden": false
-                },
-                {
-                  "suit": "d",
-                  "rank": "T",
-                  "hidden": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "step": "Dealer: Draw Card",
-          "cardsInPlay": [
-            {
-              "owner": "Dealer",
-              "cards": [
-                {
-                  "suit": "h",
-                  "rank": "A",
-                  "hidden": false
-                },
-                {
-                  "suit": "h",
-                  "rank": "4",
-                  "hidden": false
-                },
-                {
-                  "suit": "d",
-                  "rank": "7",
-                  "hidden": false
-                },
-                {
-                  "suit": "s",
-                  "rank": "Q",
-                  "hidden": false
-                }
-              ]
-            },
-            {
-              "owner": "Player",
-              "cards": [
-                {
-                  "suit": "d",
-                  "rank": "6",
-                  "hidden": false
-                },
-                {
-                  "suit": "d",
-                  "rank": "T",
-                  "hidden": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "step": "Dealer: Reveal Hole Card",
-          "cardsInPlay": [
-            {
-              "owner": "Dealer",
-              "cards": [
-                {
-                  "suit": "h",
-                  "rank": "A",
-                  "hidden": false
-                },
-                {
-                  "suit": "h",
-                  "rank": "4",
-                  "hidden": false
-                },
-                {
-                  "suit": "d",
-                  "rank": "7",
-                  "hidden": false
-                },
-                {
-                  "suit": "s",
-                  "rank": "Q",
-                  "hidden": false
-                }
-              ]
-            },
-            {
-              "owner": "Player",
-              "cards": [
-                {
-                  "suit": "d",
-                  "rank": "6",
-                  "hidden": false
-                },
-                {
-                  "suit": "d",
-                  "rank": "T",
-                  "hidden": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "step": "Player won: Dealer busted",
-          "cardsInPlay": [
-            {
-              "owner": "Dealer",
-              "cards": [
-                {
-                  "suit": "h",
-                  "rank": "A",
-                  "hidden": false
-                },
-                {
-                  "suit": "h",
-                  "rank": "4",
-                  "hidden": false
-                },
-                {
-                  "suit": "d",
-                  "rank": "7",
-                  "hidden": false
-                },
-                {
-                  "suit": "s",
-                  "rank": "Q",
-                  "hidden": false
-                }
-              ]
-            },
-            {
-              "owner": "Player",
-              "cards": [
-                {
-                  "suit": "d",
-                  "rank": "6",
-                  "hidden": false
-                },
-                {
-                  "suit": "d",
-                  "rank": "T",
-                  "hidden": false
-                }
-              ]
             }
           ]
         }
       ]
     }
-  ],
-  "winner": "Player"
+  ]
 }

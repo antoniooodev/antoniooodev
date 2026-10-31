@@ -30,23 +30,24 @@ Get as close to 21 as you can without going over. Pick a move: it opens an issue
 
 <!-- blackjack-area -->
 
-<p align="center"><b>Dealer</b>&nbsp;&nbsp;·&nbsp;&nbsp;22</p>
-<p align="center"><img width="70" src="assets/cards/AH.svg" alt="Ah" />&nbsp;<img width="70" src="assets/cards/4H.svg" alt="4h" />&nbsp;<img width="70" src="assets/cards/7D.svg" alt="7d" />&nbsp;<img width="70" src="assets/cards/QS.svg" alt="Qs" /></p>
+<p align="center"><b>Dealer</b>&nbsp;&nbsp;·&nbsp;&nbsp;10 + ?</p>
+<p align="center"><img width="70" src="assets/cards/RED_BACK.svg" alt="Hidden card" />&nbsp;<img width="70" src="assets/cards/JD.svg" alt="Jd" /></p>
 
-<h3 align="center">Player wins · dealer busts</h3>
+<h3 align="center">Player's turn · Hit or Stand?</h3>
 
-<p align="center"><img width="70" src="assets/cards/6D.svg" alt="6d" />&nbsp;<img width="70" src="assets/cards/TD.svg" alt="Td" /></p>
+<p align="center"><img width="70" src="assets/cards/6H.svg" alt="6h" />&nbsp;<img width="70" src="assets/cards/KS.svg" alt="Ks" /></p>
 <p align="center"><b>Player</b>&nbsp;&nbsp;·&nbsp;&nbsp;16</p>
 
 <p align="center">
-  <a href="https://github.com/antoniooodev/antoniooodev/issues/new?title=Blackjack%3A%20New%20Game&body=Please%20don't%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue."><img src="https://img.shields.io/badge/New%20Game-238636?style=for-the-badge" alt="New Game" /></a>
+  <a href="https://github.com/antoniooodev/antoniooodev/issues/new?title=Blackjack%3A%20Hit&body=Please%20don't%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue."><img src="https://img.shields.io/badge/Hit-238636?style=for-the-badge" alt="Hit" /></a>
+  <a href="https://github.com/antoniooodev/antoniooodev/issues/new?title=Blackjack%3A%20Stand&body=Please%20don't%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue."><img src="https://img.shields.io/badge/Stand-30363d?style=for-the-badge" alt="Stand" /></a>
+  <a href="https://github.com/antoniooodev/antoniooodev/issues/new?title=Blackjack%3A%20New%20Game&body=Please%20don't%20change%20anything%20in%20this%20issue.%20To%20execute%20your%20action%20simply%20submit%20the%20issue."><img src="https://img.shields.io/badge/New%20Game-30363d?style=for-the-badge" alt="New Game" /></a>
 </p>
 
 <details>
 <summary>Game history</summary>
 
 - **New Game** by [antoniooodev](https://github.com/antoniooodev)
-- **Stand** by [bellins14](https://github.com/bellins14)<br/><sub>Dealer: Draw Card → Dealer: Draw Card → Dealer: Reveal Hole Card → Player won: Dealer busted</sub>
 
 </details>
 
